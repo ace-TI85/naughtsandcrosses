@@ -107,7 +107,6 @@ def main():
             board = get_computer_move("O", board)
         elif players == '2' and player == "O":
             board = get_player_move("O", board)
-        print(player)
         player = switch_player(player)
             
     print_board(board)
